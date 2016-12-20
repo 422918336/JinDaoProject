@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3105251A1E09793600E463A9 /* QJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310525191E09793600E463A9 /* QJBaseViewController.m */; };
+		3105251D1E09797900E463A9 /* QJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105251C1E09797900E463A9 /* QJNavigationViewController.m */; };
+		310525201E0979DD00E463A9 /* QJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105251F1E0979DD00E463A9 /* QJTabBarController.m */; };
+		310525231E097A2600E463A9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310525221E097A2600E463A9 /* FirstViewController.m */; };
+		310525261E097A3700E463A9 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310525251E097A3700E463A9 /* ForthViewController.m */; };
+		310525291E097B9200E463A9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310525281E097B9200E463A9 /* SecondViewController.m */; };
+		3105252C1E097B9C00E463A9 /* ThiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105252B1E097B9C00E463A9 /* ThiedViewController.m */; };
 		31E458EB1E096D8B00511D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E458EA1E096D8B00511D2B /* main.m */; };
 		31E458EE1E096D8B00511D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E458ED1E096D8B00511D2B /* AppDelegate.m */; };
 		31E458F11E096D8B00511D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E458F01E096D8B00511D2B /* ViewController.m */; };
@@ -36,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310525181E09793600E463A9 /* QJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBaseViewController.h; sourceTree = "<group>"; };
+		310525191E09793600E463A9 /* QJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBaseViewController.m; sourceTree = "<group>"; };
+		3105251B1E09797900E463A9 /* QJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJNavigationViewController.h; sourceTree = "<group>"; };
+		3105251C1E09797900E463A9 /* QJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJNavigationViewController.m; sourceTree = "<group>"; };
+		3105251E1E0979DD00E463A9 /* QJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJTabBarController.h; sourceTree = "<group>"; };
+		3105251F1E0979DD00E463A9 /* QJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJTabBarController.m; sourceTree = "<group>"; };
+		310525211E097A2600E463A9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		310525221E097A2600E463A9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		310525241E097A3700E463A9 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		310525251E097A3700E463A9 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		310525271E097B9200E463A9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		310525281E097B9200E463A9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3105252A1E097B9C00E463A9 /* ThiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThiedViewController.h; sourceTree = "<group>"; };
+		3105252B1E097B9C00E463A9 /* ThiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThiedViewController.m; sourceTree = "<group>"; };
 		31E458E61E096D8B00511D2B /* JinDaoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JinDaoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E458EA1E096D8B00511D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31E458EC1E096D8B00511D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +101,182 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310524FB1E0978FD00E463A9 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310524FC1E0978FD00E463A9 /* BaseViewController */,
+				310524FD1E0978FD00E463A9 /* UINavigationBar */,
+				310524FE1E0978FD00E463A9 /* UITabbar */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		310524FC1E0978FD00E463A9 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310525181E09793600E463A9 /* QJBaseViewController.h */,
+				310525191E09793600E463A9 /* QJBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		310524FD1E0978FD00E463A9 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				3105251B1E09797900E463A9 /* QJNavigationViewController.h */,
+				3105251C1E09797900E463A9 /* QJNavigationViewController.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		310524FE1E0978FD00E463A9 /* UITabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3105251E1E0979DD00E463A9 /* QJTabBarController.h */,
+				3105251F1E0979DD00E463A9 /* QJTabBarController.m */,
+			);
+			path = UITabbar;
+			sourceTree = "<group>";
+		};
+		310524FF1E0978FD00E463A9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		310525001E0978FD00E463A9 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				310525011E0978FD00E463A9 /* Controller */,
+				310525021E0978FD00E463A9 /* Model */,
+				310525031E0978FD00E463A9 /* View */,
+			);
+			path = FirstVC;
+			sourceTree = "<group>";
+		};
+		310525011E0978FD00E463A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				310525211E097A2600E463A9 /* FirstViewController.h */,
+				310525221E097A2600E463A9 /* FirstViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		310525021E0978FD00E463A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		310525031E0978FD00E463A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		310525041E0978FD00E463A9 /* ForthVC */ = {
+			isa = PBXGroup;
+			children = (
+				310525051E0978FD00E463A9 /* Controller */,
+				310525061E0978FD00E463A9 /* Model */,
+				310525071E0978FD00E463A9 /* View */,
+			);
+			path = ForthVC;
+			sourceTree = "<group>";
+		};
+		310525051E0978FD00E463A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				310525241E097A3700E463A9 /* ForthViewController.h */,
+				310525251E097A3700E463A9 /* ForthViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		310525061E0978FD00E463A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		310525071E0978FD00E463A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		310525101E0978FD00E463A9 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				310525111E0978FD00E463A9 /* Controller */,
+				310525121E0978FD00E463A9 /* Model */,
+				310525131E0978FD00E463A9 /* View */,
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		310525111E0978FD00E463A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				310525271E097B9200E463A9 /* SecondViewController.h */,
+				310525281E097B9200E463A9 /* SecondViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		310525121E0978FD00E463A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		310525131E0978FD00E463A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		310525141E0978FD00E463A9 /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				310525151E0978FD00E463A9 /* Controller */,
+				310525161E0978FD00E463A9 /* Model */,
+				310525171E0978FD00E463A9 /* View */,
+			);
+			path = ThirdVC;
+			sourceTree = "<group>";
+		};
+		310525151E0978FD00E463A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3105252A1E097B9C00E463A9 /* ThiedViewController.h */,
+				3105252B1E097B9C00E463A9 /* ThiedViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		310525161E0978FD00E463A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		310525171E0978FD00E463A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		31E458DD1E096D8B00511D2B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +300,12 @@
 		31E458E81E096D8B00511D2B /* JinDaoProject */ = {
 			isa = PBXGroup;
 			children = (
+				310524FB1E0978FD00E463A9 /* BaseViewController */,
+				310524FF1E0978FD00E463A9 /* Category */,
+				310525001E0978FD00E463A9 /* FirstVC */,
+				310525041E0978FD00E463A9 /* ForthVC */,
+				310525101E0978FD00E463A9 /* SecondVC */,
+				310525141E0978FD00E463A9 /* ThirdVC */,
 				31E458EC1E096D8B00511D2B /* AppDelegate.h */,
 				31E458ED1E096D8B00511D2B /* AppDelegate.m */,
 				31E458EF1E096D8B00511D2B /* ViewController.h */,
@@ -210,6 +413,7 @@
 				TargetAttributes = {
 					31E458E51E096D8B00511D2B = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ESVS6W6VJC;
 						ProvisioningStyle = Automatic;
 					};
 					31E459011E096D8B00511D2B = {
@@ -276,10 +480,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310525291E097B9200E463A9 /* SecondViewController.m in Sources */,
 				31E458F11E096D8B00511D2B /* ViewController.m in Sources */,
 				31E458EE1E096D8B00511D2B /* AppDelegate.m in Sources */,
+				310525261E097A3700E463A9 /* ForthViewController.m in Sources */,
+				3105252C1E097B9C00E463A9 /* ThiedViewController.m in Sources */,
+				3105251A1E09793600E463A9 /* QJBaseViewController.m in Sources */,
+				3105251D1E09797900E463A9 /* QJNavigationViewController.m in Sources */,
 				31E458F71E096D8B00511D2B /* JinDaoProject.xcdatamodeld in Sources */,
 				31E458EB1E096D8B00511D2B /* main.m in Sources */,
+				310525201E0979DD00E463A9 /* QJTabBarController.m in Sources */,
+				310525231E097A2600E463A9 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESVS6W6VJC;
 				INFOPLIST_FILE = JinDaoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mr.J.JinDaoProject;
@@ -437,6 +649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESVS6W6VJC;
 				INFOPLIST_FILE = JinDaoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mr.J.JinDaoProject;
@@ -509,6 +722,7 @@
 				31E459181E096D8B00511D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31E459191E096D8B00511D2B /* Build configuration list for PBXNativeTarget "JinDaoProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +731,7 @@
 				31E4591B1E096D8B00511D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31E4591C1E096D8B00511D2B /* Build configuration list for PBXNativeTarget "JinDaoProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +740,7 @@
 				31E4591E1E096D8B00511D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
