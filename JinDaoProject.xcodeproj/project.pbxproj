@@ -23,6 +23,7 @@
 		31E458FC1E096D8B00511D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E458FA1E096D8B00511D2B /* LaunchScreen.storyboard */; };
 		31E459071E096D8B00511D2B /* JinDaoProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E459061E096D8B00511D2B /* JinDaoProjectTests.m */; };
 		31E459121E096D8B00511D2B /* JinDaoProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E459111E096D8B00511D2B /* JinDaoProjectUITests.m */; };
+		5ECECF0E8E1BED7AAEC906DD /* libPods-JinDaoProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C97137A352E06540913B3E69 /* libPods-JinDaoProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27CFFBC833D9D4575F6F9F20 /* Pods-JinDaoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinDaoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JinDaoProject/Pods-JinDaoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		310525181E09793600E463A9 /* QJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJBaseViewController.h; sourceTree = "<group>"; };
 		310525191E09793600E463A9 /* QJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJBaseViewController.m; sourceTree = "<group>"; };
 		3105251B1E09797900E463A9 /* QJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJNavigationViewController.h; sourceTree = "<group>"; };
@@ -74,6 +76,8 @@
 		31E4590D1E096D8B00511D2B /* JinDaoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinDaoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E459111E096D8B00511D2B /* JinDaoProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinDaoProjectUITests.m; sourceTree = "<group>"; };
 		31E459131E096D8B00511D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F1BE10F10B2D58D63C22AA /* Pods-JinDaoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JinDaoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JinDaoProject/Pods-JinDaoProject.release.xcconfig"; sourceTree = "<group>"; };
+		C97137A352E06540913B3E69 /* libPods-JinDaoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JinDaoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECECF0E8E1BED7AAEC906DD /* libPods-JinDaoProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +289,8 @@
 				31E459051E096D8B00511D2B /* JinDaoProjectTests */,
 				31E459101E096D8B00511D2B /* JinDaoProjectUITests */,
 				31E458E71E096D8B00511D2B /* Products */,
+				9D6092C2257C9A1FBA61599D /* Pods */,
+				CDBDB5DEFD244183A21287D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -346,6 +353,23 @@
 			path = JinDaoProjectUITests;
 			sourceTree = "<group>";
 		};
+		9D6092C2257C9A1FBA61599D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27CFFBC833D9D4575F6F9F20 /* Pods-JinDaoProject.debug.xcconfig */,
+				54F1BE10F10B2D58D63C22AA /* Pods-JinDaoProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDBDB5DEFD244183A21287D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97137A352E06540913B3E69 /* libPods-JinDaoProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,9 +377,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31E459161E096D8B00511D2B /* Build configuration list for PBXNativeTarget "JinDaoProject" */;
 			buildPhases = (
+				16D51C76C68D6E3ADA6E3B54 /* [CP] Check Pods Manifest.lock */,
 				31E458E21E096D8B00511D2B /* Sources */,
 				31E458E31E096D8B00511D2B /* Frameworks */,
 				31E458E41E096D8B00511D2B /* Resources */,
+				4001F5FA3FC2B0BA19752F95 /* [CP] Embed Pods Frameworks */,
+				A5E7F6341CB9DDEBECF50B1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -474,6 +501,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D51C76C68D6E3ADA6E3B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4001F5FA3FC2B0BA19752F95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JinDaoProject/Pods-JinDaoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E7F6341CB9DDEBECF50B1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JinDaoProject/Pods-JinDaoProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31E458E21E096D8B00511D2B /* Sources */ = {
@@ -635,10 +710,12 @@
 		};
 		31E459171E096D8B00511D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CFFBC833D9D4575F6F9F20 /* Pods-JinDaoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ESVS6W6VJC;
 				INFOPLIST_FILE = JinDaoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mr.J.JinDaoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,10 +724,12 @@
 		};
 		31E459181E096D8B00511D2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F1BE10F10B2D58D63C22AA /* Pods-JinDaoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ESVS6W6VJC;
 				INFOPLIST_FILE = JinDaoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mr.J.JinDaoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
