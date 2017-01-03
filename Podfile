@@ -3,5 +3,10 @@
 target 'JinDaoProject' do
   pod 'AFNetworking'
   pod ‘MJRefresh’
-
+  pod 'SDWebImage'
+  pod 'JSONModel'
+  pod 'IMYWebView'
+  pod 'MRProgress'
+  pod 'AsyncDisplayKit'
+  pod 'Masonry'
 end

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "QJTabBarController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    [UIApplication sharedApplication].keyWindow.rootViewController = [[QJTabBarController alloc]init];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor clearColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize:18]}];
+    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleLightContent];
+    //[UIApplication sharedApplication].networkActivityIndicatorVisible=NO;
+
     return YES;
 }
 

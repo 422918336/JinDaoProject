@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "SearchViewController.h"
 
 @interface FirstViewController ()
 
@@ -17,7 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.view setBackgroundColor:[UIColor orangeColor]];
+    
+    [self initUI];
 }
+
+- (void)initUI {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setFrame:CGRectMake(50, 100, 100, 30)];
+    [btn setTitle:@"点击跳转测试" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)btnClicked:(UIButton *)btn {
+    [(QJNavigationViewController *)self.navigationController pushViewController:[[SearchViewController alloc]init] animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
