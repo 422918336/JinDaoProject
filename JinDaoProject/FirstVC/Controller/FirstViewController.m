@@ -21,6 +21,9 @@
     [self.view setBackgroundColor:[UIColor orangeColor]];
     
     [self initUI];
+    
+    
+    
 }
 
 - (void)initUI {
